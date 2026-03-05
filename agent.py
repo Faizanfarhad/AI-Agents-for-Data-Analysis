@@ -70,7 +70,10 @@ def get_file(
     """
     if runtime is not None:
         print("called by", runtime.tool.name)
-
+    #create cleaneddir 
+    if not os.path.exists('cleanedDF'):
+        os.mkdir('cleanedDF')
+    
     # convert to path
     '''
     User gives us:  path string → Path object → file object → raw bytes

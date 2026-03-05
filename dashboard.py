@@ -43,6 +43,8 @@ def fetch_cleanedfile(filetype: str):
 def saveFile_getPath(infile):
         """Save uploaded file and return path"""
         if infile is not None:
+                if not os.path.exists('UserInputFiles'):
+                        os.mkdir('UserInputFiles')
                 save_path = os.path.join("UserInputFiles", infile.name)
                 with open(save_path, 'wb') as f:
                         f.write(infile.getbuffer())

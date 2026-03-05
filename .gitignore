@@ -5,4 +5,14 @@ what_i_have_to_do.txt
 #this is my testing folder so i am ignoring it 
 **/test/
 #this is cache that generates by python so not important
+
 **/__pycache__/
+
+**/cleanedDF/
+
+**/UserInputFiles/
+
+*.csv
+
+
+
