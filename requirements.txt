@@ -1,6 +1,6 @@
-langchain==1.2.10
-langchian_openai==1.1.10
-langchian_google_genai==4.2.1
+langchain>=1.2.10
+langchian_openai>=1.1.10
+langchian_google_genai>=4.2.1
 pandas
 jsonschema
 pytest
