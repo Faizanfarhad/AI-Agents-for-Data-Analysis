@@ -4,6 +4,7 @@ langchain_google_genai>=4.2.1
 pandas
 jsonschema
 pytest
+dotenv
 streamlit>=1.28.0
 plotly>=5.17.0
 matplotlib>=3.7.0
