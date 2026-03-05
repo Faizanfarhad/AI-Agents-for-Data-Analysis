@@ -12,7 +12,7 @@ The codebase is organised around modular helpers for ingestion, validation and v
 - Auto-generate descriptive statistics and plots with Plotly
 - Visualise both raw and cleaned data
 - Lightweight interface built with Streamlit
-- No data or API keys are stored on the server
+- No data or API keys are stored on the server(so you can share Api without taking any headache ^_^)
 
 
 ## 📁 Repository Structure
