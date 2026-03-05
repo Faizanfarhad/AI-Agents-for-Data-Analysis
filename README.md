@@ -33,9 +33,6 @@ The codebase is organised around modular helpers for ingestion, validation and v
 │   └── schema.json
 ├── cleanedDF/               # output from agent (cleaned files)
 ├── UserInputFiles/          # uploads saved by the dashboard
-├── test/                    # unit tests
-│   ├── test_validator.py
-│   └── testloading.py
 └── README.md                # (this file)
 ```
 
