@@ -1,0 +1,9 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "file_source": {"type": "string"},
+    "remove_null": {"type": "boolean"}
+    },
+  "required": ["file_path","remove_null"]
+}
