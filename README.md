@@ -72,35 +72,6 @@ A browser window will open. Use the sidebar to select a model, upload your datas
 Files you upload are saved to `UserInputFiles/` for convenience; cleaned output appears in `cleanedDF/` and can be visualised immediately.
 
 
-## ✅ Testing
-
-Run the provided unit tests with `pytest`:
-
-```bash
-pytest test/test_validator.py
-pytest test/testloading.py
-```
-
-Add tests for new modules as you extend the project.
-
-
-## ☁️ Deployment
-
-You can host the app anywhere that can run Python.
-
-**Streamlit Community Cloud** is the quickest way to get online – push to GitHub and follow the cloud dashboard to deploy. A custom domain (e.g. `aiagentfordataanalysis.xyz`) requires a paid plan.
-
-Alternatively, use Heroku, DigitalOcean, or any VPS:
-
-- add a `Procfile`:
-  ```text
-  web: streamlit run dashboard.py --server.port $PORT --server.enableCORS false
-  ```
-- point your domain's A/CNAME records to the host, or follow your provider's domain setup.
-
-Refer to the earlier documentation in this repo for details on configuring the domain.
-
-
 ## ✨ Contributing
 
 1. Fork the repository.
@@ -114,3 +85,8 @@ Please maintain the code style and add tests for new functionality.
 ## 📄 License
 
 This project is released under the MIT License. Feel free to use and modify.
+
+## WebApp
+```bash
+  https://ai-agents-for-data-analysis-jjc9rbnkguzuj6vxtfpgmo.streamlit.app/
+```
